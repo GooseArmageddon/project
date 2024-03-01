@@ -1,0 +1,8 @@
+i = 1
+ur_number = int(input())
+last_ur_number = ur_number * i
+while last_ur_number < ur_number * 10:
+    last_ur_number = ur_number * i
+    time.sleep(0.5)
+    print(f"{i} x {ur_number} = {ur_number * i}")
+    i += 1
